@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Registratie</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <img src="images/logo.jpg" alt="Prescription.IO Logo" class="logo">
+        <form id="registration-form">
+            <select name="titel">
+                <option value="Dhr.">Dhr.</option>
+                <option value="Mevr.">Mevr.</option>
+            </select>
+            <input type="text" name="naam" placeholder="Naam" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="text" name="praktijk" placeholder="Praktijk" required>
+            <input type="password" name="wachtwoord" placeholder="Wachtwoord" required>
+            <div class="button-container">
+                <button type="submit" class="opslaan">OPSLAAN</button>
+                <button type="button" class="annuleren" onclick="location.href='/'">ANNULEREN</button>
+            </div>
+        </form>
+    </div>
+    <script src="js/registratie.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Nieuw Recept | Prescription.io</title>
+    <link rel="stylesheet" href="css/recept.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Prescription.io Logo" id="logo">
+        <nav id="menu-bar">
+            <a href="profiel.html">Profiel</a>
+            <a href="recept.html" class="active">Recept</a>
+            <a href="verstuurd.html">Verstuurd</a>
+            <a href="info.html">Info</a>
+            <a href="#" id="logoutButton">Uitloggen</a>
+        </nav>
+    </header>
+    
+    <div class="recept-container">
+        <h2>NIEUW RECEPT</h2>
+        <form id="recept-form">
+            <div class="form-row row-naam">
+                <input type="text" id="naam" placeholder="Naam" class="input-naam">
+                <input type="text" id="voorletters" placeholder="Voorletters" class="input-voorletters">
+            </div>
+            <div class="form-row row-geboortedatum">
+                <input type="date" id="geboortedatum" placeholder="Geboortedatum" class="input-geboortedatum">
+            </div>
+            <div class="form-row row-adres">
+                <input type="text" id="adres" placeholder="Adres" class="input-adres">
+                <input type="text" id="huisnr" placeholder="Huisnr" class="input-huisnr">
+                <input type="text" id="toev" placeholder="Toev." class="input-toev">
+            </div>
+            <div class="form-row row-postcode">
+                <input type="text" id="postcode" placeholder="Postcode" class="input-postcode">
+                <input type="text" id="woonplaats" placeholder="Woonplaats" class="input-woonplaats">
+            </div>
+            <div class="form-row row-recept">
+                <textarea id="recept" placeholder="Recept" class="input-recept"></textarea>
+                <div class="toggle-container">
+                    <label>Bezorgen</label>
+                    <label class="switch">
+                        <input type="checkbox" id="bezorgen">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                
+            </div>
+            <div class="form-row row-verstuur">
+                <button type="submit" class="submit-button">VERSTUUR</button>
+            </div>
+            
+        </form>
+    </div>
+    
+    <script src="js/recept.js"></script>
+</body>
+</html>

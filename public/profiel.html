@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Profiel | Prescription.io</title>
+    <link rel="stylesheet" href="css/profiel.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Prescription.io Logo" id="logo">
+        <nav id="menu-bar">
+            <a href="profiel.html">Profiel</a>
+            <a href="recept.html">Recept</a>
+            <a href="verstuurd.html">Verstuurd</a>
+            <a href="info.html">Info</a>
+            <a href="#" id="logoutButton">Uitloggen</a>
+        </nav>
+    </header>
+    
+    <div id="profile-picture-container">
+        <img src="" alt="Profielfoto" id="profile-picture">
+    </div>
+    
+    <form id="profile-form">
+        <label for="title">Titel</label>
+        <input type="text" id="title" name="title">
+        
+        <label for="name">Naam</label>
+        <input type="text" id="name" name="name">
+        
+        <label for="practice">Praktijk</label>
+        <input type="text" id="practice" name="practice">
+        
+        <button type="button" id="change-password" style="background-color: #BE0000;">WIJZIG WACHTWOORD</button>
+        <button type="submit" id="save" style="background-color: #24B300;">OPSLAAN</button>
+    </form>
+    
+    <script src="js/profiel.js"></script>
+</body>
+</html>

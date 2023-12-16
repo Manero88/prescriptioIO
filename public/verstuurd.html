@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Nieuw Recept | Prescription.io</title>
+    <link rel="stylesheet" href="css/verstuurd.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Prescription.io Logo" id="logo">
+        <nav id="menu-bar">
+            <a href="profiel.html">Profiel</a>
+            <a href="recept.html">Recept</a>
+            <a href="verstuurd.html" class="active">Verstuurd</a>
+            <a href="info.html">Info</a>
+            <a href="#" id="logoutButton">Uitloggen</a>
+        </nav>
+    </header>
+    <div id="filter-container">
+        <input type="text" id="filter-naam" placeholder="Filter op naam">
+        <input type="date" id="filter-datum">
+        <button id="filter-toepassen">Filter</button>
+    </div>
+    
+    <div id="recepten-tabel-container">
+        <table id="recepten-tabel">
+            <thead>
+                <tr>
+                    <th>Naam</th>
+                    <th>Voorletters</th>
+                    <th>Geboortedatum</th>
+                    <th>Adres</th>
+                    <th>Huisnr</th>
+                    <th>Toev</th>
+                    <th>Postcode</th>
+                    <th>Woonplaats</th>
+                    <th>Recept</th>
+                    <th>Bezorgen</th>
+                    <th>Datum Aanmaak</th>
+                    <th>Tijdstip Aanmaak</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <button id="vorige">Vorige</button>
+        <button id="volgende">Volgende</button>
+    </div>
+
+    
+    <script src="js/verstuurd.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#logo {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+}
+
+#menu-bar {
+    background-color: #E2E2E2;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu-bar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#menu-bar a.active {
+    color: black;
+}
+
+#recepten-tabel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#recepten-tabel thead {
+    background-color: #E2E2E2;
+}
+
+
+#recepten-tabel tbody tr:nth-child(even) {
+    background-color: #E2E2E2;
+}
+
+#recepten-tabel tbody tr:nth-child(odd) {
+    background-color: white;
+}
+
+#filter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#filter-naam {
+    width: 250px;
+    margin-right: 10px;
+}
